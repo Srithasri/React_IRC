@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            LOGIN
+        </title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="Register.css">
+    </head>
+    
+
+
+<body>
+    
+   <header>
+        <nav>
+
+            <a href="Register.html" >Register</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+    <div>
+        <form class = "container" onsubmit="reg()">
+        <h3>Registration Form</h3>
+        <input type="text" name="username" id="username" placeholder="Name" class="auth">
+        <input type="email" name="" id="" placeholder="email" class="auth">
+        <input type="password" name="" id="pwd1" placeholder="password" class="auth">
+        <input type="password" name="" id="pwd2" placeholder="confirm password" class="auth">
+        <input type="datetime-local" name="" id="" class="auth">
+        <input type="number" name="" id="" placeholder="phone no" class="auth">
+        <input type="submit" value="Register" class="btn" >
+        <button onclick="show()" class="i">showuser</button>
+        
+    </form>
+</div>
+
+<script>
+    function reg()
+    {
+        
+        let a=document.getElementById("pwd1").value;
+        let b=document.getElementById("pwd2").value;
+        if(confirm("sure ?"))
+        {
+            if(a==b)
+            { 
+                alert("correct password");
+                alert("registered !");
+            }
+            else{
+                alert("password mismatch");
+            }
+        }
+        else
+        {
+            alert("failed !")
+        }
+
+        //let x=document.getElementById("username").value;
+       // alert("now you're in ! "+x);
+    }
+    
+
+    function show(){
+        alert("click ok");
+    }
+</script>
+</body>
+</html>

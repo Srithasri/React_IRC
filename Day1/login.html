@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            LOGIN
+        </title>
+        <link rel="stylesheet" href="login.css">
+    </head>
+    
+
+<body>
+
+
+        <form class = "container" onsubmit="Login()">
+        <h2>Login Form</h2>
+        <input type="text" name="username" id="username" placeholder="Name" class="auth">
+        <input type="password" name="" id="pwd" placeholder="password" class="auth">
+        <input type="submit" value="Login" class="btn" >
+        
+    </form>
+  
+<script>
+    function Login()
+    {
+        let x=document.getElementById("username").value;
+        let p=document.getElementById("pwd").value;
+        let q="123";
+        if(p==q)
+        {
+            alert("Logged in !");
+        }
+        else{
+            alert("Login failed !");
+        }
+    }
+</script>
+
+</body>
+</html>

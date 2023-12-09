@@ -1,0 +1,73 @@
+body{
+    background: #E6DADA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+
+   
+     background-image: url("https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+    height: 50vh;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 10px;
+    display: flex;
+    gap: 1rem;
+    box-shadow:
+  1.7px 1.7px 1.4px rgba(0, 0, 0, 0.016),
+  3.9px 3.9px 3.1px rgba(0, 0, 0, 0.023),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  10.3px 10.3px 8.2px rgba(0, 0, 0, 0.033),
+  15.2px 15.2px 12.2px rgba(0, 0, 0, 0.037),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  33.5px 33.5px 26.8px rgba(0, 0, 0, 0.047),
+  53.4px 53.4px 42.7px rgba(0, 0, 0, 0.054),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+   
+}
+.auth
+{
+    width: 70%;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background-color:lavender;
+    font-weight: 600;
+    gap: 2rem;
+
+
+}
+.btn
+{
+   
+    width: 40%;
+    padding: 1rem;
+    border: none;
+    border-radius: 6px;
+    background-color: darkorchid;
+    color: antiquewhite;
+    font-weight:600;
+    margin-top: 0.8rem;
+
+}
+.i{
+    border-radius: 5px;
+    background-color: gold;
+    border: none;
+    outline: none;
+}
