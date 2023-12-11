@@ -20,7 +20,7 @@ body{
     height: 85vh;
     width: 39vw;
     display: flex;
- 
+    border-radius: 5px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -105,16 +105,32 @@ justify-content: space-between;
 align-items: center;
 z-index: 100;
  }
-nav a{
+a{
   font-size: 18px;
   color:darkmagenta;
   text-decoration: none;
   font-weight: 500;
   margin-left: 35px;
   transition: .3s;
+  top:0;
+  gap:20px;
+ 
+
 }
 nav a:hover{
   
   color:white;
+}
+.nav
+{
+  top:0;
+  position: fixed;
+  /* padding-left: 850px; */
+  width: 1000px;
+  background-color: darkgrey;
+  width:1000px;
+  justify-content: end;
+  align-items: end;
+  margin:0;
 }
   

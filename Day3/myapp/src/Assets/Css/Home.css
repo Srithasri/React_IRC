@@ -1,0 +1,27 @@
+body{
+    background-image: url("https://static.toiimg.com/thumb/msid-66473975,width-1280,resizemode-4/66473975.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.ho{
+    height: 4rem;
+    width:100%;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content:center;
+    background-color:gainsboro;
+    align-items: center;
+    gap: 3%;
+    font-size: large;
+
+}
+.ho a{
+    text-decoration: none;
+    color:tomato;
+    gap: 5rem;
+   
+}
+
+
+   

@@ -1,9 +1,10 @@
 import './Assests/Css/style.css'
+import Nav from './Component/Nav'
 function App()
 {
     return(
         <div>
-           
+        <Nav/>
         <form className = "container" >
         <h3>Registration Form</h3>
         <input type="text" name="username" id="username" placeholder="Name" className="auth"/>
