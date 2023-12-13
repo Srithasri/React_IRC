@@ -1,7 +1,7 @@
 function Register()
 {
     return(
-        <div>
+        <div class="body2">
         
         <form className = "container1" >
         <h3 className="hh1">FooDle</h3>
@@ -10,7 +10,7 @@ function Register()
         <input type="email" name="" id="" placeholder="email" className="auth1"/>
         <input type="password" name="" id="pwd" placeholder="password" className="auth1"/>
         
-        <input type="submit" value="Register" className="btn1" />
+        <input type="submit" value="Register" className="btn" />
         
     </form>
 
