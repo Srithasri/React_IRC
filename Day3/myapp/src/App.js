@@ -9,7 +9,9 @@ function App()
   return(
     <div className="why">
     <Home/>
+    
     </div>
+    
   )
 }
 

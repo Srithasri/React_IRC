@@ -1,10 +1,12 @@
 import './Assests/Css/style.css'
 import Nav from './Component/Nav'
+// import Login from "./Component/Login"
 function App()
 {
     return(
         <div>
         <Nav/>
+        {/* <Login/> */}
         <form className = "container" >
         <h3>Registration Form</h3>
         <input type="text" name="username" id="username" placeholder="Name" className="auth"/>
