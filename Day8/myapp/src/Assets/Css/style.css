@@ -1,0 +1,92 @@
+body{
+    margin:0px;
+    background-color:darkgrey;
+    color:blue;
+    
+}
+.theme-color{
+    color:black;
+}
+.theme-bg{
+    background-color:antiquewhite;
+}
+
+.hv-100{
+    height:100vh;
+}
+.hv-10{
+    height:10vh
+}
+.hv-20{
+    height:20vh
+}
+.hv-90{
+    height:90vh
+}
+.hv-80{
+    height:80vh
+}
+.hv-5{
+    height:5vh
+}
+.hv-95{
+    height:95vh
+}
+
+.wv-10{
+    width:10vw;
+}
+.wv-20{
+    width:20vw;
+}
+.wv-90{
+    width:90vw;
+}
+.wv-80{
+    width:80vw;
+}
+.wv-15{
+    width:15vw;
+}
+.wv-85{
+    width:85vw;
+}
+
+
+.m-1{
+    margin: 1rem;
+}
+.my-1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.mx-1{
+    margin-left: 1rem;
+    margin-left: 1rem;
+}
+
+
+
+
+
+.flex{
+    display:flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
+}
+.items-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-start{
+    justify-content: start;
+}
+.justify-end{
+    justify-content: end;
+}

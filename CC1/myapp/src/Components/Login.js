@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 function Login() {
@@ -24,6 +25,7 @@ function Login() {
         <input type="text" name="username" id="username" placeholder="Name" className="auth" />
         <input type="password" name="password" id="pwd" placeholder="Password" className="auth" />
         <input type="submit" value="Login" className="btn" />
+       
       </form>
     </div>
   );
