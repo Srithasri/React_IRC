@@ -6,7 +6,7 @@ function Nav()
       
       <div className="nav">
       <div className="nav1">
-      <ul>
+      <ul className='uli'>
         <li className="new"><a href='#'>FooDle</a></li>
 
 
@@ -15,7 +15,7 @@ function Nav()
         <li className="nex">Login</li>
         </Link>
         <Link to='/Register'>
-          <li className="nex">Register</li>
+          <li className="nex">Sign Up</li>
         </Link>
         <Link to='/Home'>
         <li className="nex">Home</li>

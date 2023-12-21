@@ -12,12 +12,12 @@ import {Route,Routes} from 'react-router-dom'
 function App() {
   return (
     <div className="App">
-      {/* <Sidebar/> */}
     <Nav/>
-      {/* <Home/>  */}
+   
   
        <Routes>
      <Route path='/Login' element={<Login/>}/>
+    
      <Route path='/Home' element={<Home/>}/>
      <Route path='/Register' element={<Register/>}/>
      <Route path='/Sidebar' element={<Sidebar/>}/>
