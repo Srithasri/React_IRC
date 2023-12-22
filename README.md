@@ -4,6 +4,7 @@
 ![Screenshot 2023-12-13 151932](https://github.com/Srithasri/React_IRC/assets/125287386/2b368a60-2730-40e8-b4f3-37be2e3b0f62)
 
 #CC2 Review
+
 #Home Page
 ![Screenshot 2023-12-22 090715](https://github.com/Srithasri/React_IRC/assets/125287386/1dd90cb2-1e1c-44be-8f84-8382dd08e554)
 ![Screenshot 2023-12-22 090740](https://github.com/Srithasri/React_IRC/assets/125287386/5d801b27-7166-4d69-955c-f5d19f8832d2)
